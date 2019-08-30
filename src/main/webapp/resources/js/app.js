@@ -163,7 +163,36 @@ document.addEventListener("DOMContentLoaded", function() {
       this.$stepInstructions[0].parentElement.parentElement.hidden = this.currentStep >= 5;
       this.$step.parentElement.hidden = this.currentStep >= 5;
 
-      // TODO: get data from inputs and show them in summary
+      // TODO: get data from inputs and show them in summary, pobrać form przez jQuery
+
+      let quantityForm = document.getElementById("quantity").value;
+      document.getElementById("quantityConfirmed").innerHTML = quantityForm;
+
+      var checkedValue = document.querySelector('input[name="institution"]:checked').value;
+      console.log(checkedValue);
+      document.getElementById("institutionConfirmed").innerHTML = checkedValue;
+
+      let streetForm = document.getElementById("street").value;
+      document.getElementById("streetConfirmed").innerHTML = streetForm;
+
+      let cityForm = document.getElementById("city").value;
+      document.getElementById("cityConfirmed").innerHTML = cityForm;
+
+      let postcodeForm = document.getElementById("postcode").value;
+      document.getElementById("postcodeConfirmed").innerHTML = postcodeForm;
+
+      let phoneForm = document.getElementById("phoneNumber").value;
+      document.getElementById("phoneConfirmed").innerHTML = phoneForm;
+
+      let dateForm = document.getElementById("date").value;
+      document.getElementById("dateConfirmed").innerHTML = dateForm;
+
+      let timeForm = document.getElementById("time").value;
+      document.getElementById("timeConfirmed").innerHTML = timeForm;
+
+      let commentForm = document.getElementById("comment").value;
+      document.getElementById("commentConfirmed").innerHTML = commentForm;
+
     }
 
   }
