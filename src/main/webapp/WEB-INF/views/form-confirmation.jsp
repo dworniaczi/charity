@@ -13,14 +13,7 @@
 <header class="header--form-page">
     <nav class="container container--70">
         <ul class="nav--actions">
-<%--            <li class="logged-user">--%>
 
-<%--                <ul class="dropdown">--%>
-<%--                    <li><a href="#"></a></li>--%>
-<%--                    <li><a href="#"></a></li>--%>
-<%--                    <li><a href="#"></a></li>--%>
-<%--                </ul>--%>
-<%--            </li>--%>
         </ul>
 
         <ul>
@@ -32,7 +25,7 @@
         </ul>
     </nav>
 
-    <div class="slogan container container--90">
+    <div class="slogan--myown container container--90">
         <h2>
             Dziękujemy za przesłanie formularza.
         </h2>

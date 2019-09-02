@@ -168,9 +168,12 @@ document.addEventListener("DOMContentLoaded", function() {
       let quantityForm = document.getElementById("quantity").value;
       document.getElementById("quantityConfirmed").innerHTML = quantityForm;
 
-      var checkedValue = document.querySelector('input[name="institution"]:checked').value;
-      console.log(checkedValue);
-      document.getElementById("institutionConfirmed").innerHTML = checkedValue;
+      let institutionForm = document.querySelector('input[name="institutionCheck"]:checked')
+          .nextElementSibling
+          .nextElementSibling
+          .firstElementChild.innerHTML;
+      console.log(institutionForm);
+      document.getElementById("institutionConfirmed").innerHTML = institutionForm;
 
       let streetForm = document.getElementById("street").value;
       document.getElementById("streetConfirmed").innerHTML = streetForm;

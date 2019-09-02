@@ -100,18 +100,6 @@
                 </div>
 
             </li>
-
-<%--            <li>--%>
-<%--                <div class="col">--%>
-<%--                    <div class="title">Fundacja “Dla dzieci"</div>--%>
-<%--                    <div class="subtitle">Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.</div>--%>
-<%--                </div>--%>
-<%--                <div class="col">--%>
-<%--                    <div class="title">Fundacja “Bez domu”</div>--%>
-<%--                    <div class="subtitle">Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania</div>--%>
-<%--                </div>--%>
-
-<%--            </li>--%>
             </c:forEach>
         </ul>
     </div>

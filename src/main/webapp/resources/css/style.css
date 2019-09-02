@@ -881,10 +881,22 @@ header .slogan {
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
+          justify-content: flex-end;    /*changed from flexed-end to center*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+header .slogan--myown {
+  height: calc(100% - 141px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: center;    /*changed from flexed-end to center*/
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* line 29, scss/modules/_header.scss */
